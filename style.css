@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+body {
+  background: black;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  background: url(Assets/Images/IN-en-20240603-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+  height: 70vh;
+  position: relative;
+  background-size: max(1200px, 100vw);
+  background-position: center center;
+  background-repeat: no-repeat;
+
+}
+
+.box {
+  height: 70vh;
+  width: 100%;
+  opacity: 0.69;
+  background-color: black;
+  position: absolute;
+  top: 0;
+}
+
+nav {
+
+
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: 80vw;
+  height: 63px;
+
+}
+
+nav img {
+  width: 140px;
+  color: red;
+  position: relative;
+  z-index: 10;
+}
+
+nav button {
+  position: relative;
+  z-index: 10;
+}
+
+.hero {
+  display: flex;
+  height: calc(100% - 63px);
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: 23px;
+  padding: 0 30px;
+}
+
+.hero> :nth-child(1) {
+  font-family: "DM Serif Text", serif;
+  font-size: 48px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.hero> :nth-child(2) {
+  font-size: 24px;
+  font-weight: 400px;
+  text-align: center;
+}
+
+.hero> :nth-child(3) {
+  font-size: 20px;
+  font-weight: 400px;
+  text-align: center;
+}
+
+.separation {
+  height: 4px;
+  background-color: rgb(56, 55, 55);
+}
+
+.btn {
+  padding: 2px 20px;
+  border: 0.5px solid rgb(124 118 118);
+  background-color: transparent;
+  font-weight: normal;
+  color: white;
+  cursor: pointer;
+}
+
+.red {
+  background-color: red;
+  color: white;
+  padding: 15px 24px;
+  font-size: 20px;
+  border: none;
+  border-radius: 4px;
+
+}
+
+
+
+.hero-btn {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.main input {
+  padding: 17px 101px 17px 25px;
+  font-size: 13px;
+  color: white;
+  font-weight: 900;
+  border-radius: 4px;
+  background-color: rgba(23, 23, 23, 0.7);
+  border: 1px solid rgba(248, 245, 245, 0.5);
+  ;
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 70vw;
+  color: white;
+  margin: auto;
+  height: 70vh;
+
+}
+
+.secimg {
+  position: relative;
+}
+
+.secimg img {
+  width: 35vw;
+  position: relative;
+  z-index: 10;
+
+}
+
+.secimg video {
+  position: absolute;
+  top: 84px;
+  right: 5px;
+  width: 30vw;
+}
+
+.first .white {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+section.first>div :nth-child(1) {
+  font-family: "DM Serif Text", serif;
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+section.first>div :nth-child(2) {
+  font-size: 24px;
+}
+
+.yellow {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dabba {
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 14px;
+  width: 19vw;
+  padding: 6px 12px;
+  display: flex;
+  border: 2px solid white;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 21px;
+  /* left: 83px; */
+  z-index: 10;
+  /* flex-direction: row; */
+  gap: 45px;
+}
+
+.dabba img {
+  width: 20%;
+
+}
+
+#big {
+  font-size: 13px;
+  margin: 0px -17px;
+}
+
+.son {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.child video {
+  width: 21.8vw;
+  position: absolute;
+  top: 42px;
+  left: 107px;
+}
+
+.faq {
+  height: 59vw;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.quest {
+position: relative;
+  width: 72vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 46px;
+  background-color: rgb(45, 45, 45);
+  margin: 6px 4px;
+  padding: 21px 29px;
+  font-family: "DM Serif Text", serif;
+  font-size: 24px;
+
+}
+.quest:hover{
+  cursor: pointer;
+}
+
+.goat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.quest svg {
+  width: 40px;
+  height: 40px;
+}
+
+.faq h1 {
+  font-family: "DM Serif Text", serif;
+}
+
+.faq h3 {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+
+footer {
+  height: 23vw;
+
+  color: rgba(255, 255, 255, 0.7);
+}
+.maal{
+  font-size: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 16px;
+  text-decoration: underline;
+}
+.thing:hover{
+cursor: pointer;
+}
+.father{
+  width: 80vw;
+  margin: auto;
+}
+.neeche{
+  margin-top: 69px;
+}
+.num{
+margin-bottom: 26px;
+font-size: 18px;
+}
+.mango{
+  margin-top: 30px;
+}
+.last{
+  margin-top: 24px;
+}
+.btn img{
+  width: 23px;
+}
+.boka{
+  position: relative;
+  right: 11px;
+  top: 3px;
+}
+.big{
+  position: relative;
+  top: 7px;
+  left: 6px;
+}
+.classy{
+  position: absolute;
+  width: 72vw;
+  display: none;
+  height: 146px;
+  background-color: rgb(45, 45, 45);
+  margin: -2px 4px;
+  padding: 11px 29px;
+  font-family: "DM Serif Text", serif;
+  font-size: 24px;
+  top: 93px;
+  left: -5px;
+  z-index: 2;
+}
+.quest:hover .classy{
+  display: block;
+}
+.classy2{
+  position: absolute;
+  width: 72vw;
+  display: none;
+  height: 53px;
+  background-color: rgb(45, 45, 45);
+  margin: -2px 4px;
+  padding: 11px 29px;
+  font-family: "DM Serif Text", serif;
+  font-size: 24px;
+  top: 93px;
+  left: -5px;
+  z-index: 2;
+}
+.classy3{
+  display: none;
+  height: 185px;
+  padding: 11px 29px;
+}
+.classy4{
+  display: none;
+  height: 53px;
+}
+.classy5{
+  display: none;
+  height: 53px;
+}
+.classy6{
+  display: none;
+  height: 158px;
+}
+
